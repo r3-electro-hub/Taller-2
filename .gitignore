@@ -1,10 +1,13 @@
-# Ignorar absolutamente todos los archivos y carpetas por defecto
+# Ignorar todo
 *
 
-# NO ignorar el propio archivo .gitignore
+# No ignorar el propio .gitignore
 !.gitignore
 
-# EXCEPCIONES: Permitir únicamente las extensiones requeridas del proyecto
+# Permitir directorios (CRÍTICO)
+!*/
+
+# Permitir archivos por extensión
 !*.m
 !*.jpg
 !*.png
