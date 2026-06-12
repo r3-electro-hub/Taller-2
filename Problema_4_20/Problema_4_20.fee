@@ -9,7 +9,7 @@
 [Comment]     =  "Add comments here."
 [PointProps]   = 0
 [BdryProps]   = 0
-[BlockProps]  = 3
+[BlockProps]  = 2
   <BeginBlock>
     <BlockName> = "Air"
     <ex> = 1
@@ -17,21 +17,15 @@
     <qv> = 0
   <EndBlock>
   <BeginBlock>
-    <BlockName> = "dielectrico1"
-    <ex> = 20
-    <ey> = 20
-    <qv> = 0
-  <EndBlock>
-  <BeginBlock>
-    <BlockName> = "dielectrico2"
-    <ex> = 10
-    <ey> = 10
+    <BlockName> = "Polyethylene"
+    <ex> = 2.2599999999999998
+    <ey> = 2.2599999999999998
     <qv> = 0
   <EndBlock>
 [ConductorProps]  = 2
   <BeginConductor>
     <ConductorName> = "HV"
-    <Vc> = 1000
+    <Vc> = 153000
     <qc> = 0
     <ConductorType> = 1
   <EndConductor>
@@ -41,28 +35,23 @@
     <qc> = 0
     <ConductorType> = 1
   <EndConductor>
-[NumPoints] = 8
-0	-10	0	0	0
-0	10	0	0	0
-0	-20	0	0	0
-0	20	0	0	0
-0	-30	0	0	0
-0	30	0	0	0
-0	-60	0	0	0
-0	60	0	0	0
+[NumPoints] = 6
+0	-2.4750000000000001	0	0	0
+0	2.4750000000000001	0	0	0
+0	-9.1400000000000006	0	0	0
+0	9.1400000000000006	0	0	0
+0	-27.420000000000002	0	0	0
+0	27.420000000000002	0	0	0
 [NumSegments] = 0
-[NumArcSegments] = 8
+[NumArcSegments] = 6
 0	1	180	1	0	0	0	1	1
 1	0	180	1	0	0	0	1	1
-2	3	180	2.5	0	0	0	0	2.5
-3	2	180	2.5	0	0	0	0	2.5
-4	5	180	1	0	0	0	2	1
-5	4	180	1	0	0	0	2	1
-6	7	180	2.5	0	0	0	0	2.5
-7	6	180	2.5	0	0	0	0	2.5
+2	3	180	1	0	0	0	2	1
+3	2	180	1	0	0	0	2	1
+4	5	180	2.5	0	0	0	0	2.5
+5	4	180	2.5	0	0	0	0	2.5
 [NumHoles] = 1
-0	5	0
-[NumBlockLabels] = 3
-0	15	2	1	0	0
-0	25	3	1	0	0
-0	45	1	1	0	0
+0	1.2375	0
+[NumBlockLabels] = 2
+0	5.8075000000000001	2	1	0	0
+0	18.280000000000001	1	1	0	0

@@ -18,14 +18,14 @@
   <EndBlock>
   <BeginBlock>
     <BlockName> = "dielectrico1"
-    <ex> = 1
-    <ey> = 1
+    <ex> = 10
+    <ey> = 10
     <qv> = 0
   <EndBlock>
   <BeginBlock>
     <BlockName> = "dielectrico2"
-    <ex> = 2
-    <ey> = 2
+    <ex> = 20
+    <ey> = 20
     <qv> = 0
   <EndBlock>
 [ConductorProps]  = 2

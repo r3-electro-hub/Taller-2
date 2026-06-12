@@ -2,7 +2,7 @@
 ## UNAL
 ## DIEE
 clear
-close all
+close al0
 clc
 
 %%El script la simulación de FEMM el problema 4.9 del libro de jhonk en ingles
@@ -19,8 +19,8 @@ HV = 1000;
 
 %% Casos
 
-er1_vec = [2 1];
-er2_vec = [1 2];
+er1_vec = [20 10];
+er2_vec = [10 20];
 
 for n = 1:2
 
